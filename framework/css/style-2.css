@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(218, 49, 73, 0.10);
+}
+img {
+  position: center;
+}
+.top-spaceing {
+  margin-top: 10px;
+}
+.bottom-spacing {
+  margin-bottom: 10px;
+}
+.title-box {
+  font-family: 'Bungee';
+  color: #b092a9;
+}
+.bungee-font{
+  font-family: 'Bungee';
+}
+.white-background {
+  background-color: rgba(255, 255, 255, 0.13);
+}
+.hobby-text {
+  color: white;
+  font-size: 90px;
+}
+.logo-img-size {
+  width: 130px;
+  height: 130px;
+}
+.paragraph-font {
+  font-family: 'Didact Gothic';font-size: 22px;
+}
+.didact-gothic{
+  font-family: 'Didact Gothic';
+}
+.content-img-size {
+  width: 500px;
+}
+.card-columns {
+    column-count: 2;
+}
+.card {
+  background-color: rgba(250, 245, 246, 0.43);
+  border-color: white;
+  border-width: 2.5px;
+}
+/*iPad landscape*/
+@media screen and (max-width: 1025px) {
+  .content-img-size {
+    width: 400px;
+  }
+}
+/*iPad*/
+@media screen and (max-width: 768px) {
+  .title-box {
+    font-size: 40px;
+  }
+  .hobby-text {
+    font-size: 90px;
+  }
+  .content-img-size {
+    width: 300px;
+  }
+}
+/*Nexus 5 landscape*/
+@media screen and (max-width: 640px) {
+  .card-columns {
+      column-count: 2;
+  }
+  .card {
+    width: 220px;
+  }
+  .content-img-size {
+    width: 200px;
+  }
+  .title-box {
+    font-size: 30px;
+  }
+  .hobby-text {
+    font-size: 65px;
+  }
+  .logo-img-size {
+    width: 90px;
+    height: 90px;
+  }
+}
+/*Nexus 5*/
+@media screen and (max-width: 360px) {
+  .card-columns {
+      column-count: 1;
+  }
+  .card {
+    width: 350px;
+  }
+  .content-img-size {
+    width: 330px;
+  }
+  .logo-img-size {
+    width: 80px;
+    height: 80px;
+  }
+}
